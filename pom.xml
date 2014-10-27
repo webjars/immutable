@@ -53,9 +53,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/webjars/immutable</url>
-        <connection>scm:git:https://github.com/webjars/immutable.git</connection>
-        <developerConnection>scm:git:https://github.com/webjars/immutable.git</developerConnection>
+        <url>http://github.com/webjars/webjars-immutable</url>
+        <connection>scm:git:https://github.com/webjars/webjars-immutable.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/webjars-immutable.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
     
