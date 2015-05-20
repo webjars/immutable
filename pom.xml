@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>immutable</artifactId>
-    <version>3.7.3-SNAPSHOT</version>
+    <version>3.7.3</version>
     <name>immutable</name>
     <description>WebJar for immutable.js</description>
     <url>http://webjars.org</url>
@@ -56,7 +56,7 @@
         <url>http://github.com/webjars/immutable</url>
         <connection>scm:git:https://github.com/webjars/immutable.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/immutable.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>immutable-3.7.3</tag>
     </scm>
     
     <build>
@@ -89,11 +89,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                  <fileset dir="${project.build.directory}/immutable-js-${upstream.version}/dist"/>
+                                  <fileset dir="${project.build.directory}/immutable-js-${upstream.version}/dist" />
                                 </move>
                             </target>
                         </configuration>
